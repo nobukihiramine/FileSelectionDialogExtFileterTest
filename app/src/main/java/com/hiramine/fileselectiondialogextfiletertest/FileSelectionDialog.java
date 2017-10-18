@@ -150,7 +150,6 @@ public class FileSelectionDialog implements AdapterView.OnItemClickListener
 	private FileInfoArrayAdapter m_fileinfoarrayadapter; // ファイル情報配列アダプタ
 	private String[]             m_astrExt;                // フィルタ拡張子配列
 
-
 	// コンストラクタ
 	public FileSelectionDialog( Context context, OnFileSelectListener listener, String strExt )
 	{
